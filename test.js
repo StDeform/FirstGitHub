@@ -10,8 +10,8 @@ const { chromium } = require('playwright');
   await page.click('[data-testid="login-next-button"]');
   await page.fill('[data-testid="login-password-input"]', '11111111');
   await page.click('[data-testid="login-next-button"]');
-  await page.screenshot({ path: "screenshot.png" })
-  await page.close();
+
+
 
 
 
