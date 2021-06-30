@@ -10,6 +10,9 @@ const { chromium } = require('playwright');
   await page.click('[data-testid="login-next-button"]');
   await page.fill('[data-testid="login-password-input"]', '11111111');
   await page.click('[data-testid="login-next-button"]');
+  await page.click('[class="SettingsMenu__SettingsMenuRoot-sc-1iiy7mp-0 kisdsI LeftPanel__StyledSettingsMenu-sc-17av3mw-2 dRnGvO"]');
+  await page.click('[data-testid="menu-edit-replika"]');
+
 
 
 
