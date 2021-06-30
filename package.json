@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/StDeform/FirstGitHub/issues"
   },
-  "homepage": "https://github.com/StDeform/FirstGitHub#readme"
+  "homepage": "https://github.com/StDeform/FirstGitHub#readme",
+  "devDependencies": {
+    "playwright": "^1.12.3"
+  }
 }
